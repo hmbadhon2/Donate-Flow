@@ -1,0 +1,80 @@
+body{
+    margin: 0 ;
+    font-family: 'Poppins', sans-serif;
+}
+#hero-section{
+    background-image: url(img/donation11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    padding:150px 0px;
+    
+}
+  
+.hero-area {
+    text-align: center;}
+
+.hero-area h1{
+    font-size: 55px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.link-button{
+    background-color: rgb(247, 89, 4);
+    text-decoration: none;
+    padding:10px 40px;
+    border-radius:5px;
+    color: aliceblue;
+}
+
+.section{
+    text-align: center;
+    margin:5% 10%;
+}
+/* amount -section*/
+
+.heading-title{
+    font-size: 45px;
+    font-weight: 500;
+}
+.flex-container{
+    display: flex; 
+}
+.flex-container h3{
+padding: 30px 15px;
+background-color: rgb(226, 226, 247);
+border-radius: 4px;
+margin: 50px 20px;
+
+
+}
+.ammount-section input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: gray;
+    margin-bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+
+  /* plan-section*/
+.plan{
+    width:30%;
+    background-color: rgb(192, 245, 245);
+    padding: 30px;
+    text-align: left;
+    margin-left:20px;
+    border-radius: 10px;
+}
+ .plan img{
+    position: right;
+    width: 20%;
+   
+  
+ }
+
+ .form{
+    background-color: rgb(6, 175, 57);
+    padding: 30px 50px;
+    display: inline-block;
+ }
