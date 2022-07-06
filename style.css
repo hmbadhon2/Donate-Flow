@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 #hero-section{
-    background-image: url(img/donation11.jpg);
+    background-image: url(img/hero-\ img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
@@ -18,18 +18,26 @@ body{
     font-size: 55px;
     color: aliceblue;
     font-weight: 700;
+   line-height: 30px;
 }
-.link-button{
-    background-color: rgb(247, 89, 4);
-    text-decoration: none;
-    padding:10px 40px;
-    border-radius:5px;
+.hero-area p{
     color: aliceblue;
+    font-size: 20px;
+   
+}
+
+
+.link-button{
+    background-color: rgb(247, 61, 10);
+    text-decoration: none;
+    padding:15px 40px;
+    border-radius:5px;
+    color: aliceblue;   
 }
 
 .section{
     text-align: center;
-    margin:5% 10%;
+    margin:5% 20%;
 }
 /* amount -section*/
 
@@ -44,17 +52,25 @@ body{
 padding: 30px 15px;
 background-color: rgb(226, 226, 247);
 border-radius: 4px;
-margin: 50px 20px;
+margin: 50px 40px;
 
 
 }
+
+.flex-container h3 style{
+    border: 1px solid rgb(247, 61, 10) ;
+    background-color: rgb(237, 173, 155) ;
+}
 .ammount-section input {
     outline: 0;
+    padding: 15px;
     border-width: 0 0 1px;
     border-color: gray;
-    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 30px;
     display: block;
     text-align: center;
+    width: 100%;
   }
 
   /* plan-section*/
@@ -75,6 +91,14 @@ margin: 50px 20px;
 
  .form{
     background-color: rgb(6, 175, 57);
-    padding: 30px 50px;
+    padding: 50px 250px;
     display: inline-block;
  }
+
+ footer{
+    background-color: rgba(0, 0, 0, 0.952);
+    text-align: center;
+    color: aliceblue;
+    padding: 20px 0;
+ }
+
